@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------estilos body----------------------*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color:rgb(132, 218, 240);
+    color: #222222;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    /* margin: auto; */
+}
+
+h1{ color: #333;
+    font-size: 40px;
+}
+
+h2{color: #333; font-size: 30px; text-align: center;}
+h3{color: #333; font-size: 20px; background-color: rgb(204, 245, 226); text-align: center;}
+
+button{
+    font-size: 18px;
+    width: 330px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 50px;
+    outline: none;
+}
+
+a{text-decoration: none; color: white;}
+
+/*-----------------estilos nav---------------------*/
+
+ nav{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); line-height: 30px;} 
+
+
+/*-----------------estilos header-------------------*/
+
+.headercontainer{
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+header h1{
+    color: #333;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h2{
+    color: #333;
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 28px 0px 28px;
+}
+
+.imagenLogo{
+    width: 45%; height: auto; border-radius: 100%;
+}   
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    border-radius: 4px;
+    margin: 4px 0;
+    width: 330px;
+    height: 80px;
+    padding: 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 110px;
+}
+
+button.int{background-color: rgb(197, 121, 204);}
+button.int:hover{background-color: rgb(162, 82, 236);}
+.int a.interiores{color: white;}
+
+button.ped{background-color: rgb(110, 177, 146)}
+button.ped:hover{background-color: rgb(54, 179, 121);}
+.ped a.pedidos{color: white;}
+
+button.cont{background-color: rgb(212, 212, 110)}
+button.cont:hover{background-color:  rgb(226, 226, 70);}
+.cont a.contacto{color: white;}
+
+/*---------------estilos main-----------------------*/
+
+img {
+    width: 30%; 
+    height: auto;
+    margin: 5px; 
+    border-radius: 15%;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+
+/*---------------Images-----------------------*/
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.images{
+    background-color: hsl(300, 12%, 55%);
+    border-radius: 10px;
+    max-width: 330px;
+    height: 300px;
+    padding: 37px;
+    margin: 16px 24px 0 24px;
+    color:hsl(300, 24%, 96%);
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+}
+
+.images img{
+    border-radius: 25%;
+    width: 100px;
+    margin-right: 20px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.images .name{
+    font-weight: 700;
+    grid-column: 2/3;
+    text-align: center;
+    padding: 30px 0 25px 0;
+}
+
+.images .status{
+    color: hsl(334, 28%, 85%);
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.images p{
+    font-weight: 500;
+    line-height: 20px;
+    grid-column: 1/3;
+    margin-top: 30px;
+}
+/*---------------Fin-Images-----------------------*/
+
+.pediatrico{
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pediatrico h3{
+    color: #333;
+    font-size: 20px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pediatrico p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 28px 0px 28px; 
+}
+
+
+.emprendedor:hover{transform: scale(2,2)}
+.gatos:hover{transform: scale(2,2);}
+.mariposas:hover{transform: scale(2,2);}
+
+.imgAgenda{display: flex; justify-content: space-evenly; }
+
+.negroyblanco:hover{transform: scale(2,2);}
+.perrito:hover{transform: scale(2,2)}
+.universo:hover{transform: scale(2,2);}
+
+.formulario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.formulario h2{
+    color: #333;
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.enviar{
+    font-family: 'Poiret One', cursive;
+    border-radius: 4px;
+    margin: 4px 0;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 110px;
+}
+
+input{margin-bottom: 5px; width: 200px; height: 30px;}
+textarea{height: 100px; width: 200px;}
+
+
+/*------------------estilos footer------------------*/
+
+footer{
+    width: 100%;
+    background-color: #333;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer button{
+    color: white;
+    background-color: violet;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.tienda{color: white; font-size: 40px;}
+
+/* -------------------------Mayor a 375px-------------------------- */
+@media only screen and (min-width: 376px){
+    .buttoncontainer{
+        padding: 0 25px;
+    }
+    .button1{
+        align-self: flex-start;
+    }
+    .button3{
+        align-self: flex-end;
+    }
+    .imgContainer{
+        padding: 0 14px;
+    }
+    .image1{
+      align-self: flex-start; 
+    }
+    .image3{
+      align-self: flex-end;
+    }
+    .formulario{
+        width: 80%;
+    }
+}
+
+/* -------------------------Mayor a 768px-------------------------- */
+@media only screen and (min-width: 768px){
+    .imagenLogo{
+        width: 30%;
+    } 
+    .buttoncontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .button1{
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    .button2{
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    .button3{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        justify-self: center;
+    }
+    .imgContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .image1{
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    .image2{
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    .image3{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        justify-self: center;
+    }
+    .pediatrico{
+        padding: 0 14px 0 14px;
+    }
+    .agenda{
+        padding: 0 14px 0 14px; 
+    }
+    .cuaderno{
+        padding: 0 14px 0 14px;
+    }
+    footer{
+        height: 300px;
+        padding: 20px;
+    }
+    .tienda{
+        color: white; 
+        font-size: 50px;
+    }
+    footer button{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+
+/* -------------------------Mayor a 1440px-------------------------- */
+@media only screen and (min-width: 1440px){
+    .headercontainer{
+        width: 80%; 
+        padding: 10px; 
+        margin: auto;
+    }
+    main{
+        width: 80%; 
+        padding: 5px; 
+        margin: auto;
+    }
+    .buttoncontainer{
+        display: flex;
+        flex-direction: row;
+        padding: 0 14px 0 14px;
+        margin: 30px;
+        justify-content: space-between;
+    }
+    .buttons{
+        margin: 0;
+    }
+    .imgContainer{
+        display: flex;
+        flex-direction: row;
+        padding: 0 14px 0 14px;
+        margin: 30px;
+    }
+    .images{
+        margin: 0;
+    }
+    .imagenLogo{
+        width: 30%;
+    }    
+}
+
+
+
+
+
+
+
+

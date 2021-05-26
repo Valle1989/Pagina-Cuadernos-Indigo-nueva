@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadernos Indigo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <a class="nav" href="index.html" title="Inicio"> Inicio</a>
+            <a class="nav" href="quiensoy.html" title="Quien Soy">Quién Soy</a>
+        </nav>
+        <header>
+            <div class="headercontainer">
+                <h1>Cuadernos.Indigo</h1>
+                <img class="imagenLogo" src="imagenes/Indigo1.jpg" alt="logo"> <br> <br>
+                <h2>Bienvenidos a Cuadernos Indigo</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti explicabo repellendus recusandae
+                    sequi, ipsum minima nemo commodi hic. Ad, sapiente.
+                    Nam consectetur voluptas fugiat dignissimos cum, maxime perspiciatis rerum perferendis!
+                </p>
+                <div class="buttoncontainer">
+                    <div class="buttons button1">
+                        <button class="int"><a class="interiores" href="interiores.html"
+                                title="vinculo a interiores">INTERIORES</a></button>
+                    </div>
+                    <div class="buttons button2">
+                        <button class="ped"><a class="pedidos" href="pedidos.html" title="vinculo a pedidos">
+                                PEDIDOS</a></button>
+                    </div>
+                    <div class="buttons button3">
+                        <button class="cont"><a class="contacto" href="contacto.html" title="vinculo a contacto">
+                                CONTACTO</a></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h3>¿Que Servicios ofrecemos?</h3>
+            <div class="listado">
+                <ul class="items">
+                    <li><a href="#Cuadernos Personalizados" title="ancla a Cuadernos Personalizados">Cuadernos
+                            Personalizados</a></li>
+                    <li>Cuaderno Emprendedor</li>
+                    <li>Cuaderno Pediátrico</li>
+                    <li>Agenda Semanal</li>
+                    <li>Agenda Diaria</li>
+                    <li>Agenda Pepetua</li>
+                    <li>Recetario</li>
+                </ul>
+            </div>
+            <h3 class="cuaderno">Cuaderno Emprendedor</h3>
+            <div class="imgContainer">
+                <div class="images image1">
+                    <img class="emprendedor" src="imagenes/flores.jpeg" alt="flores">
+                    <span class="name">Emprendedor</span>
+                    <span class="status">Renglones</span>
+                    <p>"We needed the same printed design as the one we had ordered a week prior.
+                        Not only did they find the original order, but we also received it in time.
+                        Excellent!"</p>
+                </div>
+                <div class="images image2">
+                    <img class="gatos" src="imagenes/gatos.jpeg" alt="gatos">
+                    <span class="name">Emprendedor</span>
+                    <span class="status">Liso</span>
+                    <p>"Customer service is always excellent and very quick turn around. Completely
+                        delighted with the simplicity of the purchase and the speed of delivery."</p>
+                </div>
+                <div class="images image3">
+                    <img class="mariposas" src="imagenes/mariposas.jpeg" alt="mariposas">
+                    <span class="name">Emprendedor</span>
+                    <span class="status">Cuadriculada</span>
+                    <p>"Put an order with this company and can only praise them for the very high
+                        standard. Will definitely use them again and recommend them to everyone!"</p>
+                </div>
+            </div>
+            <h3>Cuaderno Pediátrico</h3>
+            <div class="pediatrico">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sed ea doloribus, minus ad
+                    maxime, debitis
+                    sit ut, incidunt at sapiente assumenda aspernatur sint. Hic corrupti laborum libero eius unde!
+                </p>
+            </div>
+
+            <h3 class="agenda">Agenda Semanal</h3>
+            <div class="imgContainer">
+                <div class="images image1">
+                    <img class="negroyblanco" src="imagenes/negro y blanco.jpeg" alt="negroyblanco">
+                    <span class="name">Agenda Semanal</span>
+                    <span class="status">Liso</span>
+                    <p>"Customer service is always excellent and very quick turn around. Completely
+                        delighted with the simplicity of the purchase and the speed of delivery."</p>
+                </div>
+                <div class="images image2">
+                    <img class="perrito" src="imagenes/perrito.jpeg" alt="perrito">
+                    <span class="name">Agenda Semanal</span>
+                    <span class="status">Renglones</span>
+                    <p>"Customer service is always excellent and very quick turn around. Completely
+                        delighted with the simplicity of the purchase and the speed of delivery."</p>
+                </div>
+                <div class="images image3">
+                    <img class="universo" src="imagenes/universo.jpeg" alt="universo">
+                    <span class="name">Agenda Semanal</span>
+                    <span class="status">Cuadriculada</span>
+                    <p>"Customer service is always excellent and very quick turn around. Completely
+                        delighted with the simplicity of the purchase and the speed of delivery."</p>
+                </div>
+            </div>
+
+            <div class="formulario">
+                <h2>Contactáme</h2>
+                <form action="php/codigo.php" method="post">
+                    <label for="nombreyapellido">*Nombre y Apellido</label> <br>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre y apellido"> <br>
+                    <label for="email">*E-mail</label> <br>
+                    <input type="email" name="email" placeholder="información@gmail.com"> <br>
+                    <label for="comentarios">*Comentarios</label> <br>
+                    <textarea name="comentarios" required></textarea> <br>
+                    <span>*campos obligatorios</span> <br> <br>
+                    <button class="enviar">Enviar</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h4 class="tienda">¿Ya visitaste la tienda online?</h4>
+            <button>Quiero ver! #comprar</button>
+        </footer>
+    </div>
+
+</body>
+
+</html>
